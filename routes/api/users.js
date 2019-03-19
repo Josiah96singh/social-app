@@ -142,4 +142,5 @@ router.get('/current', passport.authenticate('jwt', {
   });
 });
 
+
 module.exports = router;
